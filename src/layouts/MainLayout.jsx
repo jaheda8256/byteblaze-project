@@ -11,7 +11,7 @@ const MainLayout = () => {
             </div> 
             
           {/* packet */}
-         <div>
+         <div className="min-h-[calc(100vh-116px)]">
          <Outlet></Outlet>
          </div>
           {/* footer */}
